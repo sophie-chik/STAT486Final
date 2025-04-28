@@ -1,7 +1,7 @@
 # STAT486Final
 Dynamic RSI is a machine learning-based Python library that dynamically adjusts the traditional RSI (Relative Strength Index) thresholds based on real-time market conditions. Instead of using static values (like 30/70), it intelligently adapts the "Buy" and "Sell" levels depending on market volatility and momentum.
 
-## ⚙️ Setup Instructions
+## Setup Instructions
 
 1. **Clone the repository**:
 
@@ -32,6 +32,7 @@ thresholds = get_rsi_thresholds(date="2024-04-15")
 
 # Example: Generate Buy/Sell/Hold signals
 signals = recommend_signals(["AAPL", "MSFT", "GOOGL"], date="2024-04-15")
+```
 
 ### CLI Usage
 ```bash
