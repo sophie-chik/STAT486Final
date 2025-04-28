@@ -39,10 +39,12 @@ signals = recommend_signals(["AAPL", "MSFT", "GOOGL"], date="2024-04-15")
 rsi-strategy --date 2024-10-17 --tickers AAPL NVDA NFLX
 ```
 ### Sample Output
+```bash
 RSI Thresholds: 
 Buy: 42.0 
 Sell: 87.5
 ===AAPL=== RSI: 58.9, signal: Hold
 ===NVDA=== RSI: 68.4, signal: Hold
 ===NFLX=== RSI: 41.3, signal: Buy
+```
 
